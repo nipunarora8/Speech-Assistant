@@ -1,5 +1,5 @@
 # Speech-Assistant
-A simple speech assistant in just 103 lines using python. It can do tasks like playing songs and translating sentenses. (Will add more features in future)
+A simple speech assistant in just 114 lines using python. It can do tasks like playing songs and translating sentenses. (Will add more features in future)
 
 Please install following python libraries before runnning. (links are provided below)
 
