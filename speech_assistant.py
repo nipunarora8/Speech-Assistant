@@ -103,6 +103,7 @@ tts("What do you want to do?")
 print("What do you want to do")
 print("1. Play Songs")
 print("2. Translate")
+print("3. Search on wikipedia")
 choice = speech()
 
 print(choice)
