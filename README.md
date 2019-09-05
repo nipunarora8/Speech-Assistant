@@ -26,4 +26,9 @@ Please install following python libraries before runnning. (links are provided b
    <br>Documentation: https://py-googletrans.readthedocs.io/en/latest/
    <br>cmd install: pip install googletrans
    <br>conda install: conda install -c conda-forge googletrans
-   
+
+6. Wikipedia : An API used to search information from wikipedia. 
+               <br>(Can be used as an alternate for webscrapping wikipedia using beautifulsoup)
+   <br>Documentation: https://pypi.org/project/wikipedia/
+   <br>cmd install: pip install wikipeida
+              
