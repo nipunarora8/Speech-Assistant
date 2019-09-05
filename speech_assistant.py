@@ -1,4 +1,3 @@
-//Code by Nipun Arora
 
 from gtts import gTTS #text to speech
 import os as o
@@ -9,6 +8,7 @@ import sys
 import time
 import speech_recognition as sr #speech recognition
 from googletrans import Translator
+import wikipedia
 
 text='s'
 def speech():
@@ -92,6 +92,13 @@ def trans():
     print(out)
     tts(out)
 
+def wiki():
+    tts("What do you wanna search about?:")
+    var=input("What do you wanna search about?: ")
+    print()
+    print(wikipedia.summary(var,sentences=2))
+    tts(wikipedia.summary(var,sentences=1))    
+
 tts("What do you want to do?")
 print("What do you want to do")
 print("1. Play Songs")
@@ -103,3 +110,5 @@ if choice.lower() == "play songs":
     song()
 elif choice.lower() == "translate":
     trans()
+elif choice.lower() == "search on wikipedia":
+    wiki()
