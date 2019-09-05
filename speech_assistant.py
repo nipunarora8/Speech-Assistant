@@ -1,4 +1,3 @@
-
 from gtts import gTTS #text to speech
 import os as o
 from googlesearch import search #google search
